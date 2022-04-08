@@ -1,0 +1,29 @@
+.decline-modal {
+    .selector-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .selector {
+        cursor: pointer;
+        width: 48%;
+        height: 84px;
+        border: solid 1px rgb(199, 205, 220);
+        border-radius: 3px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .selector:hover {
+        background-color: rgb(230, 232, 241);
+        border: solid 1px rgb(43, 46, 158);
+    }
+    .loader {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
